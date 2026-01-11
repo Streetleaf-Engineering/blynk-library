@@ -31,6 +31,10 @@
     typedef uint32_t millis_time_t;
 #endif
 
+#ifdef MM_WiFi_HaLow
+    #include "blynk_time.h"
+#endif
+
 void            BlynkDelay(millis_time_t ms);
 millis_time_t   BlynkMillis();
 size_t          BlynkFreeRam();
