@@ -32,7 +32,7 @@
 #endif
 
 #ifdef MM_WiFi_HaLow
-    #include "blynk_time.h"
+    #include "tinyArduino.h"
 #endif
 
 void            BlynkDelay(millis_time_t ms);
